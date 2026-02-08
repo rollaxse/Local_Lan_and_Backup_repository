@@ -12,11 +12,11 @@ Step-by-Step Veeam Setup Process
 1. Install Veeam Components
 
 
-*  Downloaded Veeam Agent for Microsoft Windows (Free).
+  *  Downloaded Veeam Agent for Microsoft Windows (Free).
 
-* Installed Veeam on the employee workstation to perform backups.
+  * Installed Veeam on the employee workstation to perform backups.
 
-* Installed Veeam on the backup server to manage and store backup data.
+  * Installed Veeam on the backup server to manage and store backup data.
 
 2. Prepare the Backup Repository
 
