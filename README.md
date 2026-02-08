@@ -1,4 +1,4 @@
-# Local_Lan_and_Backup_repository
+# README
 This project is based on a real-world scenario in which an employee experiences a ransomware-related issue that prevents access to critical files. The employee submits an IT support ticket stating that they are unable to access certain folders on their workstation. The issue is treated as a potential security incident and handled following CompTIA-aligned ticketing and incident response procedures.
 Upon receiving the ticket, the issue is documented and assessed to determine the scope and impact of the problem. The affected system is identified, and immediate steps are taken to prevent further damage or data loss. The workstation is isolated as necessary, and the ransomware threat is remediated to ensure the system is safe for recovery operations.
 After the system is cleaned, attention is shifted to data recovery. The environment includes a local area network with a dedicated backup server configured to store backups from employee workstations. Backups are maintained in accordance with standard backup practices to ensure data integrity and availability in the event of system failure or security incidents.
