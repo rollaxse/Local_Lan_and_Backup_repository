@@ -61,7 +61,7 @@ Domain user accounts were created to represent fictional employees as part of a 
 
 
 <sub><b>Steps Performed</b></sub>
-1. Opened Active Directory Users and Computers
+1. Opened `Active Directory Users and Computers`
 
 2. Created Organizational Units for employees and workstations
 
@@ -83,7 +83,7 @@ The network for this lab was designed to separate external internet access from 
 
 4. Assigned static IPv4 addresses on the internal network
 
-5. Address range: 192.168.100.x
+5. Address range: `192.168.100.x`
 
 6. Consistent subnet mask across all systems
 
@@ -91,7 +91,7 @@ The network for this lab was designed to separate external internet access from 
 
 8. Changed the internal network connection profile to Private to allow domain traffic:
 
-9. Set-NetConnectionProfile -InterfaceAlias "Ethernet1" -NetworkCategory Private
+9. `Set-NetConnectionProfile -InterfaceAlias "Ethernet1" -NetworkCategory Private`
 
 10. Adjusted Windows Defender Firewall to permit required inbound IPv4 communication on the private network
 
