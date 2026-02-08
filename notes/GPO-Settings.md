@@ -18,11 +18,11 @@
 * Enabled Remove Run menu from Start Menu
 
 5. Blocked Senitive Apps Using Dont Run specified Windows Applications
-User Configuration
-→ Policies
-→ Administrative Templates
-→ System
-→ Don't run specified Windows applications
+User Configuration: 
+* Policies
+* Administrative Templates
+* System
+* Don't run specified Windows applications
 6.  Force A group Policy Refresh
 gpupdate /force
 
