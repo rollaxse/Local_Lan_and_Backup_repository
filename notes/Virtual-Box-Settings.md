@@ -15,7 +15,7 @@
 
 
 
-During installation, the appropriate Windows editions were selected:
+<b>During installation, the appropriate Windows editions were selected:</b>
 
 * Windows 11 Pro for the employee workstation
 
@@ -23,7 +23,7 @@ During installation, the appropriate Windows editions were selected:
 
 
 
-Each virtual machine was configured with two network adapters:
+<b>Each virtual machine was configured with two network adapters:</b>
 
 * One adapter attached to NAT, used for internet access during setup, updates, and software installation
 
