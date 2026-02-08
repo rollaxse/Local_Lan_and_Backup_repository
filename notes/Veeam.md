@@ -64,7 +64,7 @@ Veeam was used to implement a centralized backup and recovery solution for the e
 
 * Confirmed restored files were accessible and intact.
 
-<b>Result<b/>
+<b>Result</b>
 
 
 The Veeam backup solution successfully protected employee data by storing backups on a centralized backup server while preventing employee access to backup files. File-level restore testing confirmed the ability to recover data quickly, demonstrating a realistic enterprise-style backup and recovery workflow.
