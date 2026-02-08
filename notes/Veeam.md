@@ -1,12 +1,12 @@
 Veeam Backup Configuration 
 
 
-Overview
+<b>Overview</b>
 
 
 Veeam was used to implement a centralized backup and recovery solution for the employee workstation. The goal of this setup was to ensure employee data could be recovered in the event of data loss, malware, or ransomware, while preventing the employee from accessing or modifying backup files directly. Backups were stored on a separate backup server to reflect common enterprise backup practices.
 
-Step-by-Step Veeam Setup Process
+<b>Step-by-Step Veeam Setup Process</b>
 
 
 1. Install Veeam Components
@@ -64,7 +64,7 @@ Step-by-Step Veeam Setup Process
 
 * Confirmed restored files were accessible and intact.
 
-Result
+<b>Result<b/>
 
 
 The Veeam backup solution successfully protected employee data by storing backups on a centralized backup server while preventing employee access to backup files. File-level restore testing confirmed the ability to recover data quickly, demonstrating a realistic enterprise-style backup and recovery workflow.
