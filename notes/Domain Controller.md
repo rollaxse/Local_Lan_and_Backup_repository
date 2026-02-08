@@ -35,7 +35,7 @@ Once installation completed, the server was promoted to a domain controller. Dur
 <sub><b>Steps Performed</b></sub>
 1. Opened Server Manager
 
-2. Selected Manage → Add Roles and Features
+2. Selected `Manage → Add Roles and Features`
 
 3. Installed Active Directory Domain Services
 
