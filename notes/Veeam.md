@@ -10,6 +10,8 @@ Step-by-Step Veeam Setup Process
 
 
 1. Install Veeam Components
+
+
 *  Downloaded Veeam Agent for Microsoft Windows (Free).
 
 * Installed Veeam on the employee workstation to perform backups.
@@ -17,6 +19,8 @@ Step-by-Step Veeam Setup Process
 * Installed Veeam on the backup server to manage and store backup data.
 
 2. Prepare the Backup Repository
+
+
 * Created a dedicated backup folder on the backup server.
 
 * Placed the backup folder on a separate storage volume to reduce the risk of data loss from a single drive failure.
@@ -26,6 +30,8 @@ Step-by-Step Veeam Setup Process
 * Verified the employee user did not have direct access to the backup location.
 
 3. Configure the Backup Job
+
+
 * Opened the Veeam Agent console on the employee workstation.
 
 * Created a new backup job.
@@ -39,6 +45,8 @@ Step-by-Step Veeam Setup Process
 * Left default backup settings enabled for simplicity and reliability.
 
 4. Run and Validate the Backup
+
+
 * Manually started the backup job for testing purposes.
 
 * Confirmed the backup completed successfully without errors.
@@ -46,6 +54,8 @@ Step-by-Step Veeam Setup Process
 * Verified backup files were created and stored on the backup server.
 
 5. Restore Validation (File-Level)
+
+
 * Used File System Restore within Veeam to test recovery.
 
 * Selected files from the backup repository.
