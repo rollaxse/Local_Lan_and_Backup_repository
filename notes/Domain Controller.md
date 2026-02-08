@@ -10,16 +10,16 @@ After logging into the server, initial configuration tasks were completed to pre
 
 
 
-Steps Performed
-Logged into the Windows Server VM
+###Steps Performed
+1. Logged into the Windows Server VM
 
-Renamed the server to reflect its domain controller role
+2. Renamed the server to reflect its domain controller role
 
-Restarted the server to apply hostname changes
+3. Restarted the server to apply hostname changes
 
-Verified network connectivity on the internal adapter
+4. Verified network connectivity on the internal adapter
 
-Active Directory Domain Services Installation
+5. Active Directory Domain Services Installation
 
 
 Active Directory Domain Services (AD DS) was installed using Server Manager. The role installation was completed using the Add Roles and Features wizard with a role-based installation on the local server. Required features were added automatically.
