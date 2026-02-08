@@ -10,7 +10,7 @@ After logging into the server, initial configuration tasks were completed to pre
 
 
 
-###Steps Performed
+<sub><b>steps performed</b></sub>
 1. Logged into the Windows Server VM
 
 2. Renamed the server to reflect its domain controller role
