@@ -56,7 +56,7 @@ Domain user accounts were created to represent fictional employees as part of a 
 
 
 
-<i>Steps Performed<i/>
+<sub><b>Steps Performed</b></sub>
 Opened Active Directory Users and Computers
 
 Created Organizational Units for employees and workstations
