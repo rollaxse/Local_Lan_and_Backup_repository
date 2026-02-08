@@ -1,4 +1,4 @@
-#architecture 
+
 This lab environment was designed to replicate a small enterprise IT environment using centralized management, role separation, and controlled access to system resources.
 The environment consists of an employee workstation, a domain controller, and a dedicated backup server. Each system is assigned a specific role to reflect common enterprise infrastructure practices.
 The employee workstation represents a standard end-user system used for daily work and file access. User accounts on this system operate with standard privileges and do not have administrative access. 
