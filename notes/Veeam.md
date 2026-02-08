@@ -1,4 +1,4 @@
-Veeam Backup Configuration – Full Process
+Veeam Backup Configuration 
 
 
 Overview
