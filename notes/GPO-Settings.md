@@ -7,7 +7,7 @@
 
  4. Edited the GPO and configured restrictions under:
 
-User Configuration
+* User Configuration
 → Policies
 → Administrative Templates
 → System
