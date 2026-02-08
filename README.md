@@ -1,7 +1,30 @@
-# README
-This project is based on a real-world scenario in which an employee experiences a ransomware-related issue that prevents access to critical files. The employee submits an IT support ticket stating that they are unable to access certain folders on their workstation. The issue is treated as a potential security incident and handled following CompTIA-aligned ticketing and incident response procedures.
-Upon receiving the ticket, the issue is documented and assessed to determine the scope and impact of the problem. The affected system is identified, and immediate steps are taken to prevent further damage or data loss. The workstation is isolated as necessary, and the ransomware threat is remediated to ensure the system is safe for recovery operations.
-After the system is cleaned, attention is shifted to data recovery. The environment includes a local area network with a dedicated backup server configured to store backups from employee workstations. Backups are maintained in accordance with standard backup practices to ensure data integrity and availability in the event of system failure or security incidents.
-Using the backup solution, previously backed-up user data is accessed and reviewed to confirm the presence of the missing files. File-level restore techniques are used to recover the employee’s documents and folders without requiring a full system restore. This approach minimizes downtime while ensuring that critical user data is successfully restored.
-Once the recovery process is complete, the restored files are verified to ensure they are accessible and intact. The incident is documented, and the ticket is updated to reflect the resolution. The project concludes with confirmation that the employee’s data has been recovered and normal system operations have been restored.
-This project demonstrates practical experience with IT ticketing workflows, basic incident response, ransomware remediation concepts, backup management, and file-level restoration within a small enterprise-style network environment.
+# READ ME
+<b>Overview</b>
+
+
+This project simulates a small enterprise IT environment focused on user access control, backup management, and recovery validation. The lab environment consists of a domain-controlled employee workstation, a centralized backup server, and enforced security policies to reflect real-world IT support and incident response workflows. The primary objective was to restrict employee access during a suspected security incident and validate the ability to recover data from centralized backups.
+
+<b>Project Scenario</b>
+
+
+A fictional IT support ticket was submitted by an employee stating they were unable to access certain folders on their workstation. The issue was treated as a potential ransomware or unauthorized access incident. As part of the response, the employee account was restricted using Group Policy to prevent access to administrative tools, and backups were reviewed to ensure data could be restored if required.
+
+
+
+This scenario mirrors common helpdesk and junior system administration responsibilities, including user account restriction, incident assessment, and recovery preparation.
+
+<b>Restore & Validation</b>
+
+
+Centralized backups of the employee workstation were created using Veeam and stored securely on a dedicated backup server. To validate the backup strategy, file-level restore testing was performed to confirm that employee data could be successfully recovered without granting the employee direct access to backup files.
+
+
+
+The restore process confirmed that critical data could be restored quickly and reliably following a simulated security incident. This validation demonstrated the effectiveness of centralized backups, proper permission scoping, and recovery readiness within the environment.
+
+<b>Outcome</b>
+
+
+The lab successfully demonstrated a realistic enterprise-style backup and recovery workflow. Employee access was restricted using Group Policy, backups were securely stored on a separate server, and data restoration was validated without compromising security controls. This project highlights core IT skills related to access control, backup management, troubleshooting, and incident response.
+
+
