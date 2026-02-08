@@ -1,5 +1,5 @@
 # Domain Controller
-Domain Controller Setup and Domain Configuration
+
 
 
 The domain controller was deployed using Windows Server 2022 (Desktop Experience) to provide centralized authentication, user management, and policy enforcement. The configuration followed standard enterprise practices to ensure domain stability and allow consistent management of users and systems.
@@ -21,7 +21,7 @@ After logging into the server, initial configuration tasks were completed to pre
 
 5. Active Directory Domain Services Installation
 
-
+Server Manager
 Active Directory Domain Services (AD DS) was installed using Server Manager. The role installation was completed using the Add Roles and Features wizard with a role-based installation on the local server. Required features were added automatically.
 
 
@@ -30,24 +30,24 @@ Once installation completed, the server was promoted to a domain controller. Dur
 
 
 
-Steps Performed
-Opened Server Manager
+<sub><b>Steps Performed</b></sub>
+1. Opened Server Manager
 
-Selected Manage → Add Roles and Features
+2. Selected Manage → Add Roles and Features
 
-Installed Active Directory Domain Services
+3. Installed Active Directory Domain Services
 
-Promoted the server to a domain controller
+4. Promoted the server to a domain controller
 
-Created a new forest using a fictional domain name
+5. Created a new forest using a fictional domain name
 
-Set the DSRM password
+6. Set the DSRM password
 
-Restarted the server after promotion
+7. Restarted the server after promotion
 
-Organizational Units and User Creation
+8. Organizational Units and User Creation
 
-
+Organizational Units
 Organizational Units (OUs) were created to logically separate employee accounts and workstation objects. This structure supports clearer administration and allows targeted Group Policy enforcement.
 
 
@@ -57,39 +57,40 @@ Domain user accounts were created to represent fictional employees as part of a 
 
 
 <sub><b>Steps Performed</b></sub>
-Opened Active Directory Users and Computers
+1. Opened Active Directory Users and Computers
 
-Created Organizational Units for employees and workstations
+2. Created Organizational Units for employees and workstations
 
-Created domain user accounts for fictional employees
+3. Created domain user accounts for fictional employees
 
-Verified users were members of Domain Users only
+4. Verified users were members of Domain Users only
 
-# Network Configuration
+Network Configuration
 
 The network for this lab was designed to separate external internet access from internal domain communication, similar to how a small enterprise environment is structured. Each virtual machine was configured with two network adapters: one for basic internet connectivity and one for a private internal network. Static IPv4 addressing was used on the internal LAN to ensure reliable communication between systems, including domain authentication and backup traffic. Windows Defender Firewall and network profile settings were adjusted to allow secure internal communication while minimizing unnecessary exposure
 
-Steps Performed
-Configured two network adapters on each virtual machine
+<sub></b>Steps Performed</b></sub>
+1. Configured two network adapters on each virtual machine
 
-NAT for internet connectivity
+2. NAT for internet connectivity
 
-Host-only adapter for internal LAN communication
+3. Host-only adapter for internal LAN communication
 
-Assigned static IPv4 addresses on the internal network
+4. Assigned static IPv4 addresses on the internal network
 
-Address range: 192.168.100.x
+5. Address range: 192.168.100.x
 
-Consistent subnet mask across all systems
+6 .Consistent subnet mask across all systems
 
-Set the domain controller as the primary DNS server for the internal network
+7. Set the domain controller as the primary DNS server for the internal network
 
-Changed the internal network connection profile to Private to allow domain traffic:
+8. Changed the internal network connection profile to Private to allow domain traffic:
 
-Set-NetConnectionProfile -InterfaceAlias "Ethernet1" -NetworkCategory Private
-Adjusted Windows Defender Firewall to permit required inbound IPv4 communication on the private network
+9. Set-NetConnectionProfile -InterfaceAlias "Ethernet1" -NetworkCategory Private
 
-Verified connectivity and domain communication using ping tests and successful domain joins
+10 .Adjusted Windows Defender Firewall to permit required inbound IPv4 communication on the private network
+
+11. Verified connectivity and domain communication using ping tests and successful domain joins
 
 
 
@@ -104,16 +105,16 @@ Successful login using domain credentials confirmed that domain services were fu
 
 
 
-Steps Performed
-Logged into each workstation using a local account
+<sub><b>Steps Performed</b></sub>
+1. Logged into each workstation using a local account
 
-Verified DNS pointed to the domain controller
+2. Verified DNS pointed to the domain controller
 
-Joined the workstation to the domain
+3. Joined the workstation to the domain
 
-Restarted the workstation
+4. Restarted the workstation
 
-Logged in using domain user credentials to verify functionality
+5. Logged in using domain user credentials to verify functionality
 
 Validation
 
