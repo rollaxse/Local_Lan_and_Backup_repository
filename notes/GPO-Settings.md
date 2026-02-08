@@ -11,11 +11,11 @@
 → Policies
 → Administrative Templates
 → System
-Enabled Prevent access to the command prompt
+* Enabled Prevent access to the command prompt
 
-Enabled Prevent access to registry editing tools
+* Enabled Prevent access to registry editing tools
 
-Enabled Remove Run menu from Start Menu
+* Enabled Remove Run menu from Start Menu
 
 5. Blocked Senitive Apps Using Dont Run specified Windows Applications
 User Configuration
