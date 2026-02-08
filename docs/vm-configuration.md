@@ -1,4 +1,4 @@
-#VM-Setup
+# VM Configuration
 This lab was built using Oracle VirtualBox as the virtualization platform. VirtualBox was chosen because it is commonly used in lab and learning environments and allows full control over hardware resources, networking, and storage configuration.
 
 
