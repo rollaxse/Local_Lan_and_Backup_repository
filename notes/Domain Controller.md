@@ -22,6 +22,8 @@ After logging into the server, initial configuration tasks were completed to pre
 5. Active Directory Domain Services Installation
 
 Server Manager
+
+
 Active Directory Domain Services (AD DS) was installed using Server Manager. The role installation was completed using the Add Roles and Features wizard with a role-based installation on the local server. Required features were added automatically.
 
 
@@ -48,6 +50,8 @@ Once installation completed, the server was promoted to a domain controller. Dur
 8. Organizational Units and User Creation
 
 Organizational Units
+
+
 Organizational Units (OUs) were created to logically separate employee accounts and workstation objects. This structure supports clearer administration and allows targeted Group Policy enforcement.
 
 
@@ -66,6 +70,7 @@ Domain user accounts were created to represent fictional employees as part of a 
 4. Verified users were members of Domain Users only
 
 Network Configuration
+
 
 The network for this lab was designed to separate external internet access from internal domain communication, similar to how a small enterprise environment is structured. Each virtual machine was configured with two network adapters: one for basic internet connectivity and one for a private internal network. Static IPv4 addressing was used on the internal LAN to ensure reliable communication between systems, including domain authentication and backup traffic. Windows Defender Firewall and network profile settings were adjusted to allow secure internal communication while minimizing unnecessary exposure
 
