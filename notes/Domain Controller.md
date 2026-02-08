@@ -69,7 +69,7 @@ Network Configuration
 
 The network for this lab was designed to separate external internet access from internal domain communication, similar to how a small enterprise environment is structured. Each virtual machine was configured with two network adapters: one for basic internet connectivity and one for a private internal network. Static IPv4 addressing was used on the internal LAN to ensure reliable communication between systems, including domain authentication and backup traffic. Windows Defender Firewall and network profile settings were adjusted to allow secure internal communication while minimizing unnecessary exposure
 
-<sub></b>Steps Performed</b></sub>
+<sub><b>Steps Performed</b></sub>
 1. Configured two network adapters on each virtual machine
 
 2. NAT for internet connectivity
@@ -80,7 +80,7 @@ The network for this lab was designed to separate external internet access from 
 
 5. Address range: 192.168.100.x
 
-6 .Consistent subnet mask across all systems
+6. Consistent subnet mask across all systems
 
 7. Set the domain controller as the primary DNS server for the internal network
 
@@ -88,7 +88,7 @@ The network for this lab was designed to separate external internet access from 
 
 9. Set-NetConnectionProfile -InterfaceAlias "Ethernet1" -NetworkCategory Private
 
-10 .Adjusted Windows Defender Firewall to permit required inbound IPv4 communication on the private network
+10. Adjusted Windows Defender Firewall to permit required inbound IPv4 communication on the private network
 
 11. Verified connectivity and domain communication using ping tests and successful domain joins
 
